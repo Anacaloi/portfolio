@@ -27,6 +27,7 @@ img {
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
+  font-family: "Fraunces", serif;
 }
 @media (max-width: 800px) {
   .subtitulo {
