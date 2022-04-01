@@ -29,7 +29,9 @@
 .footer-contato li a {
   color: #fff;
 }
-
+.footer-contato li a:hover {
+  text-decoration: underline #d5c0f9;
+}
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
