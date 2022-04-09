@@ -1,4 +1,4 @@
-.experiencia {
+.projetos {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -6,21 +6,22 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
-.experiencia .subtitulo {
+.projetos .subtitulo {
   color: #e0e0e0;
+  max-width: 5ch;
 }
 
-.experiencia-texto {
+.projetos-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
   columns: #525252;
 }
-.experiencia-texto strong {
+.projetos-texto strong {
   color: #141414;
 }
-.empresa {
+.projeto {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
@@ -30,7 +31,7 @@
   border-radius: 4px;
   position: relative;
 }
-.empresa::before {
+.projeto::before {
   content: "";
   display: block;
   width: 4px;
@@ -40,7 +41,7 @@
   top: 20px;
   left: -4px;
 }
-.empresa-ano {
+.projeto-ano {
   position: absolute;
   top: 22px;
   left: -100px;
@@ -49,24 +50,24 @@
   text-align: right;
   width: 80px;
 }
-.empresa-titulo {
+.projeto-titulo {
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
   font-family: "Fraunces", serif;
 }
-.empresa-texto {
+.projeto-texto {
   font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
-.empresa-habilidades {
+.projeto-habilidades {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-content: start;
 }
-.empresa-habilidades li {
+.projeto-habilidades li {
   font-size: 0.8575rem;
   line-height: 1.4;
   border-radius: 4px;
@@ -74,11 +75,11 @@
   padding: 5px 10px;
 }
 @media (max-width: 800px) {
-  .experiencia {
+  .projetos {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .experiencia .subtitulo {
+  .projetos .subtitulo {
     color: #141414;
   }
 }
