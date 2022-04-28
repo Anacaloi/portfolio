@@ -24,13 +24,23 @@
   line-height: 1.1;
   color: #fff;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .footer-contato li a {
   color: #fff;
 }
-.footer-contato li a:hover {
-  text-decoration: underline #d5c0f9;
+.footer-contato li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #d5c0f9;
+  position: absolute;
+}
+.footer-contato li a:hover::after {
+  width: 30%;
+  transition: 0.3s;
 }
 .footer-copy {
   grid-column: 1 / -1;
