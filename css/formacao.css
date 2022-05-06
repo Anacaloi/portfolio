@@ -142,7 +142,7 @@
   .formacao-container::after {
     width: 30px;
     height: 10px;
-    bottom: 0;
+    bottom: -5px;
   }
 
   .formacao .subtitulo {
