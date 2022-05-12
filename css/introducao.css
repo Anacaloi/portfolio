@@ -54,6 +54,11 @@
     grid-template-columns: 1fr;
   }
   .introducao img {
-    display: none;
+    border-radius: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  .introducao h1::before {
+    width: 0px;
   }
 }
