@@ -30,6 +30,10 @@
 .footer-contato li a {
   color: #fff;
 }
+.footer-contato img {
+  display: inline-block;
+  margin-right: 10px;
+}
 .footer-contato li a::after {
   content: "";
   display: block;
