@@ -42,8 +42,9 @@
   background-color: #d5c0f9;
   position: absolute;
 }
+
 .footer-contato li a:hover::after {
-  width: 30%;
+  width: 40%;
   transition: 0.3s;
 }
 .footer-copy {
@@ -60,5 +61,8 @@
   }
   .footer-contato li {
     font-size: 1.5rem;
+  }
+  .footer-contato img {
+    max-width: 1.2rem;
   }
 }
