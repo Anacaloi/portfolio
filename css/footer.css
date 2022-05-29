@@ -30,23 +30,17 @@
 .footer-contato li a {
   color: #fff;
 }
+
+.footer-contato li a:hover {
+  font-size: 2.3rem;
+  transition: 0.3s;
+}
+
 .footer-contato img {
   display: inline-block;
   margin-right: 10px;
 }
-.footer-contato li a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0%;
-  background-color: #d5c0f9;
-  position: absolute;
-}
 
-.footer-contato li a:hover::after {
-  width: 40%;
-  transition: 0.3s;
-}
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
