@@ -1,6 +1,6 @@
 
 # Portfólio
-### Projeto pessoal desenvolvido durante o curso de "HTML e CSS para iniciantes" da Origamid.
+### Projeto pessoal em desenvolvimento para o Bootcamp de Desenvolvimento Web FullStack elasNaTech. 
 
 
 
