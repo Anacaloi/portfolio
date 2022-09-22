@@ -1,5 +1,8 @@
+
+/* Importa fontes: Fraunces */
 @import url("@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap')");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Poppins:wght@400;700&display=swap");
+/* Reseta estilos padrão das Tags HTML como: margem e o decorador de tópicos em listas */
 body {
   font-family: "Poppins", Arial, sans-serif;
   margin: 0px;
@@ -16,11 +19,13 @@ ul {
   padding: 0px;
   list-style: none;
 }
+/* Configura imagem de perfil. Configura altura e largura máxima para acompanharem a proporção da tela */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+/* Texto decorativo à esquerda de projetos, formação, quem sou, etc */
 .subtitulo {
   font-size: 7rem;
   line-height: 1;
