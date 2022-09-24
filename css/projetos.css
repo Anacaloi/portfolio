@@ -77,6 +77,11 @@
   background: #fff;
   padding: 5px 10px;
 }
+.botoes-portfolio {
+  display: contents;
+  justify-content: space-around;
+  background-color: #141414;
+}
 @media (max-width: 800px) {
   .projetos {
     grid-template-columns: 1fr;
