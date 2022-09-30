@@ -1,8 +1,10 @@
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 @import "./global.css";
 @import "./header.css";
 @import "./introducao.css";
 @import "./projetos.css";
 @import "./formacao.css";
 @import "./footer.css";
+@import "./contato.css";
