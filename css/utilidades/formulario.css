@@ -19,8 +19,8 @@
 .form input[type="email"],
 .form textarea {
   font: 400 1rem/1.5 "Poppins", sans-serif;
-  background: var(--cor-1);
-  border: 1px solid var(--cor-2);
+  background: var(--cor-9);
+  border: 1px solid var(--cor-12);
   padding: 12px;
   border-radius: 4px;
   width: 100%;
@@ -32,7 +32,7 @@
 .form textarea:focus {
   outline: none;
   border-color: var(--cor-p1);
-  background: var(--cor-0);
+  background: var(--cor-8);
   box-shadow: 0 0 0 2px #8a76dd;
 }
 
