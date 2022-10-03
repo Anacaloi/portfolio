@@ -80,3 +80,10 @@
     color: var(--cor-c2);
   }
 
+.bg-grad-light {
+  background: linear-gradient(81.01deg, #D1BAFF 0.05%, #EC9DFB 13.88%, #C6A1F6 31.06%, #A9CAF7 79.78%);
+}
+
+.bg-grad-dark {
+  background: linear-gradient(90deg, #050658 -6.39%, #070335 114.11%);
+}
