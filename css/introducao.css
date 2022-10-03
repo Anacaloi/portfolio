@@ -27,7 +27,7 @@
   left: -40px;
   z-index: -1;
 }
-.introducao img {
+#perfil {
   border-radius: 50%;
 }
 .introducao p {
