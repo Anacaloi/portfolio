@@ -1,6 +1,7 @@
 .contato {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  margin-top: 40px;
 }
 
 .contato-dados,

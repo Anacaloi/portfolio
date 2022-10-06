@@ -1,6 +1,6 @@
 .introducao {
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -14,6 +14,7 @@
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
+  color: var(--cor-0);
 }
 
 .introducao h1::before {
@@ -32,7 +33,7 @@
 }
 .introducao p {
   font-size: 1.5rem;
-  color: #525252;
+  color: var(--cor-3);
 }
 @media (max-width: 1000px) {
   .introducao h1 {

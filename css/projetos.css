@@ -7,7 +7,7 @@
   gap: 100px;
 }
 .projetos .subtitulo {
-  color: #e0e0e0;
+  color: #404040;
   max-width: 5ch;
 }
 
@@ -16,17 +16,17 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  columns: #525252;
+  color: var(--cor-2);
 }
 .projetos-texto strong {
-  color: #141414;
+  color: var(--cor-0);
 }
 .projeto {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #f5f5f5;
+  background: #1d1d1d;
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
@@ -45,7 +45,7 @@
   position: absolute;
   top: 22px;
   left: -100px;
-  color: #525252;
+  color: #dedede;
   font-size: 0.875rem;
   text-align: right;
   width: 80px;
@@ -55,14 +55,15 @@
   line-height: 1.1;
   font-weight: bold;
   font-family: "Fraunces", serif;
+  color: #ffffff;
 }
 .projeto-titulo a {
-  color: #141414;
+  color: #ffffff;
 }
 .projeto-texto {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: #dedede;
 }
 .container-botoes {
   display: grid;
@@ -78,7 +79,8 @@
   font-size: 0.8575rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #fff;
+  background: #111111;
+  color: #dedede;
   padding: 5px 10px;
 }
 .botoes-portfolio {
