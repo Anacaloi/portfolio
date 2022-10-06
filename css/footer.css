@@ -7,31 +7,34 @@
   padding: 120px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2.5fr 1fr 1fr;
   gap: 100px;
   align-items: center;
 }
 
 .footer-texto {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.33;
   color: #ccc;
 }
 
-.footer-contato li {
+.footer-redes li,
+.footer-links li {
   font-weight: bold;
-  font-size: 2.725rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   position: relative;
 }
 
-.footer-contato li a {
+.footer-redes li a,
+.footer-links li a {
   color: #fff;
 }
 
-.footer-contato img {
+.footer-redes img {
+  max-width: 1.5rem;
   display: inline-block;
   margin-right: 8px;
 }
@@ -48,10 +51,11 @@
     gap: 40px;
     padding: 80px 20px 60px 20px;
   }
-  .footer-contato li {
-    font-size: 1.5rem;
+  .footer-redes li a,
+  .footer-links li a {
+    font-size: 1rem;
   }
-  .footer-contato img {
-    max-width: 1rem;
+  .footer-redes img {
+    max-width: 0.8rem;
   }
 }
